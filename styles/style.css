@@ -13,13 +13,77 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin:0;
+  padding:0;
+  background-color: #f2f2f2;
+  z-index: -1;
+  color:black;
+  position:relative;
+  border: 3px solid #000;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+ 
   /* выше установили ограничения для секции */
 }
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  width:228px;
+  height:32px;
+  position:absolute;
+  top:30px;
+  left:64px;
+  z-index:1;
+  margin:0;
+  padding:0;
+}
 
+.header__title {
+  width:730px;
+  line-height:96px;
+  font-size: 102px;
+  font-weight:bold;
+  padding:0 0 0 64px;
+  margin:0;
+  border: 3px solid #000;
+  
+  }
+.header__subtitle {
+  width:388px;
+  line-height: 25px;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  left:64px;
+  bottom:30px;
+  margin:0;
+  border: 3px solid #000;
+  
+}
+  .header__main-illustration{
+    width: 765px;
+    height: 608px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    z-index:1;
+    margin:0;
+    padding:0;
+    border: 3px solid #000;
+
+  }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color:#2f80ed;
+  position:absolute;
+  right:0px;
+  top:64px;
+  z-index:0;
+  margin:0;
+  padding:0;
+  border: 3px solid #000;
 }
 
 /* и элемента с модификатором вида ключ-значение */
