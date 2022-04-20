@@ -1,0 +1,14 @@
+@keyframes opacity {
+    from {opacity: 100%;
+    }
+    to {opacity: 35%;
+    }
+  }
+  
+  .opacity:hover {
+    animation-name: opacity;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
