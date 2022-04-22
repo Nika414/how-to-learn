@@ -1,6 +1,6 @@
 /*Глобальные стили*/
-@import url(vendor/normalize.css);
-@import url(blocks/root/root.css);
+@import url(./vendor/normalize.css);
+@import url(./blocks/root/root.css);
 
 /*Кейфреймы*/
 @import url(./blocks/rotation/rotation.css);
