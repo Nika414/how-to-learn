@@ -1,5 +1,7 @@
 .cards__item {
     width:240px;
+    margin: 0;
+    padding: 0;
 }
 .cards__item:nth-of-type(2) {
     width: 240px;

@@ -16,8 +16,8 @@
 
 /*logo*/
 @import url(./blocks/logo/logo.css);
-@import url(./blocks/logo/_place-header/logo__place_header.css);
-@import url(./blocks/logo/_place-footer/logo_place_footer.css);
+@import url(./blocks/logo/_place/logo__place_header.css);
+@import url(./blocks/logo/_place/logo_place_footer.css);
 
 /*two-columns*/
 @import url(./blocks/two-columns/two-columns.css);
@@ -25,13 +25,13 @@
 @import url(./blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(./blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(./blocks/two-columns/__span-accent/two-columns__span-accent.css);
-@import url(./blocks/two-columns/_theme_oakley/two-columns_theme_oakley.css);
+@import url(./blocks/two-columns/_theme/two-columns_theme_oakley.css);
 
 /*title+subtitle*/
 @import url(./blocks/section-title/section-title.css);
 @import url(./blocks/section-subtitle/section-subtitle.css);
-@import url(./blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
-@import url(./blocks/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(./blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(./blocks/section-title/_theme/section-title_theme_dark.css);
 
 /*Блок techniques*/
 @import url(./blocks/cards/cards.css);
@@ -58,12 +58,13 @@
 /*table*/
 @import url(./blocks/table/table.css);
 @import url(./blocks/table/__cell/table__cell.css);
-@import url(./blocks/table/__cell/_theme_white/table_cell_theme_white.css);
+@import url(./blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(./blocks/table/__cell/_theme/table__cell_theme_white.css);
 @import url(./blocks/table/__heading/table__heading.css);
 @import url(./blocks/table/__text/table__text.css);
-@import url(./blocks/table/_theme_white/table_theme_white.css);
-@import url(./blocks/table/_theme_dark/table_theme_dark.css);
-@import url(./blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(./blocks/table/_theme/table_theme_white.css);
+@import url(./blocks/table/_theme/table_theme_dark.css);
+
 
 /*Блок Khan*/
 @import url(./blocks/khan/khan.css);
@@ -93,7 +94,7 @@
 @import url(./blocks/footer/__column-link/footer__column-link.css);
 @import url(./blocks/footer/__column-links/footer__column-links.css);
 @import url(./blocks/footer/__column/footer__column.css);
-@import url(./blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
-@import url(./blocks/footer/__column/_content_info/footer__column_content_info.css);
+@import url(./blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(./blocks/footer/__column/_content/footer__column_content_info.css);
 @import url(./blocks/footer/__columns/footer__columns.css);
 @import url(./blocks/footer/__social-icon/footer__social-icon.css);
